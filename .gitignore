@@ -6,8 +6,10 @@ _*
 *.swp
 *.swo
 .erlang.cookie
+.erlang.mk.packages.*
 ebin
 log
+ct.coverdata
 erl_crash.dump
 .rebar
 .rebar3
@@ -16,4 +18,16 @@ _rel
 _deps
 _plugins
 _tdeps
+deps
+doc
 logs
+test/ct.cover.spec
+/_build
+/c_src/env.mk
+/cover
+/priv/*.dll
+/priv/*.dylib
+/priv/*.so
+/tmp
+*.ez
+pmbag.d

@@ -10,12 +10,15 @@
 %%%-------------------------------------------------------------------
 {application, pmbag, [
 	{description, "Erlang Private Mail Bag."},
-	{vsn, "0.1.0"},
+	{vsn, "1.0.0"},
 	{registered, []},
 	{applications, [
 		kernel,
 		stdlib
 	]},
 	{env, []},
-	{modules, []}
+	{modules, []},
+	{maintainers, ["Andrew Bennett"]},
+	{licenses, ["Mozilla Public License Version 2.0"]},
+	{links, [{"Github", "https://github.com/potatosalad/pmbag"}]}
 ]}.

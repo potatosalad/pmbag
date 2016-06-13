@@ -1,9 +1,7 @@
-pmbag
-=====
+# pmbag
+
+[![Build Status](https://travis-ci.org/potatosalad/pmbag.png?branch=master)](https://travis-ci.org/potatosalad/pmbag) [![Hex.pm](https://img.shields.io/hexpm/v/pmbag.svg)](https://hex.pm/packages/pmbag)
 
 Erlang Private Mail Bag
 
-Build
------
-
-    $ rebar3 compile
+Inspired by [ferd/pobox](https://github.com/ferd/pobox).
